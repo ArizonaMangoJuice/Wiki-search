@@ -14,8 +14,7 @@ body {
 
 .main-content {
     position: relative;
-    border: 1px solid #fff;
-    width: 50%;
+    width: 70%;
     height: 500px;
     margin-right: auto;
     margin-left: auto;
@@ -66,31 +65,32 @@ h1 {
     display: none;
 }
 
-.wiki-search input {
+#search-button {
+    display: inline-block;
+}
+
+button {
+    color: #fff;
+    display: inline-block;
+    font-size: 26px;
+    margin-right: 5px;
+    background: #009933;
+    border: 1px solid #009933;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 1s;
+    color: #AAC7AA;
+}
+
+input {
     color: #000;
     border: 1px solid #fff;
     font-size: 24px;
     border-radius: 3px;
     outline: none;
     display: inline-block;
-}
-
-.wiki-search input:focus {
-    outline: none;
-}
-
-.search-button {
-    color: #fff;
-    display: inline-block;
-    font-size: 26px;
-    margin-right: 5px;
-}
-
-.search-button i:hover {
-    cursor: pointer;
-    transition: 1s;
-    color: #AAC7AA;
-    vertical-align: top;
 }
 
 .show-image {
@@ -110,7 +110,6 @@ h1 {
     color: #fff;
     display: inline-block;
     font-size: 24px;
-    vertical-align: bottom;
     margin-right: 5px;
 }
 
@@ -126,6 +125,16 @@ h1 {
 }
 
 
+/* info-div settings*/
+
+.info-div {
+    height: 1000px;
+    width: 100%;
+    border: 1px solid red;
+    display: none;
+}
+
+
 /* author settings*/
 
 .author {
@@ -133,10 +142,34 @@ h1 {
     position: absolute;
     width: 100%;
     text-align: center;
-    bottom: 0;
+    top: 0;
     color: #fff;
 }
 
 .author a {
     color: #fff;
+}
+
+
+/* search-conent settings*/
+
+.search-content {
+    background: #fff;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.search-content ul {
+    list-style-type: none;
+    color: #009933;
+}
+
+.search-content li {
+    margin-bottom: 5px;
+}
+
+.search-content a {
+    color: #000;
+    font-size: 26px;
 }
