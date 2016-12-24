@@ -1,10 +1,3 @@
-function buildUrl(pattern) {
-    var base_url = "https://en.wikipedia.org/w/api.php";
-    var format = "&format=json";
-    var request_url = "?action=query&format=json&list=search&srsearch=";
-    var url = base_url + request_url + pattern;
-    return url;
-}
 $(document).ready(function() {
     $("#test").click(function() {
         $(".wiki-image").fadeOut("fast");
