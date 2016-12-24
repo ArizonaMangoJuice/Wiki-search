@@ -79,14 +79,50 @@ h1 {
     outline: none;
 }
 
+.search-button {
+    color: #fff;
+    display: inline-block;
+    font-size: 26px;
+    margin-right: 5px;
+}
+
+.search-button i:hover {
+    cursor: pointer;
+    transition: 1s;
+    color: #AAC7AA;
+    vertical-align: top;
+}
+
 .show-image {
     color: #fff;
     display: inline-block;
     font-size: 26px;
+    margin-right: 5px;
 }
 
 .show-image i:hover {
     cursor: pointer;
+    transition: 1s;
+    color: #AAC7AA;
+}
+
+.random-search {
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+.random-search a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.random-search i:hover {
+    cursor: pointer;
+    transition: 1s;
+    color: #AAC7AA;
 }
 
 
